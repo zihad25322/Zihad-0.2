@@ -8,7 +8,7 @@ module.exports = {
 	credits: "nayan", 
 	description: "Fun",
 	category: "no prefix",
-	usages: "😒",
+	usages: "😅",
         cooldowns: 5, 
 },
 
@@ -19,7 +19,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	if (body.indexOf("😅")==0 || body.indexOf("😊")==0 || body.indexOf("🤗")==0 || body.indexOf("😌")==0) {
 		var msg = {
 				body: "বাবু 🫠🙃",
-				attachment: fs.createReadStream(__dirname + `/Nayan/Mayabi.mp3`)
+				attachment: fs.createReadStream(__dirname + `/Nayan/audioclip-1683607159000-5759.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("🫗", event.messageID, (err) => {}, true)
