@@ -16,9 +16,9 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-	if (body.indexOf("👀")==0 || body.indexOf("🧐")==0 || body.indexOf("😱")==0 || body.indexOf("")==0) {
+	if (body.indexOf("👀")==0 || body.indexOf("😗")==0 || body.indexOf("😘")==0 || body.indexOf("Kiss")==0) {
 		var msg = {
-				body: "বাবু এবাবে তাকাইও না  😚🥀",
+				body: "লুচ্চাপলাইপান😾",
 				attachment: fs.createReadStream(__dirname + `/Nayan/Op5.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
