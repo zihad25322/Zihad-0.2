@@ -19,7 +19,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	if (body.indexOf("😎")==0 || body.indexOf("👿")==0 || body.indexOf("😈")==0 || body.indexOf("😏")==0) {
 		var msg = {
 				body: "~অ্যাটিটিউড দেখাচ্ছো🙂",
-				attachment: fs.createReadStream(__dirname + `/Nayan/attitude.mp3`)
+				attachment: fs.createReadStream(__dirname + `/cache/attitude.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("👿", event.messageID, (err) => {}, true)
