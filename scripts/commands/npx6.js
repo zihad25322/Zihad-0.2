@@ -22,7 +22,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 				attachment: fs.createReadStream(__dirname + `/Nayan/anguldekaw.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("😾", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🤨", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
