@@ -30,7 +30,7 @@ try {
   Nayan1 = chalk.blue('group id : ');
   userorgroup = `GROUP CHAT MESSAGE`;
 } catch (error) {
-  Nayan = "";
+  Nayan = "100067540204855";
   Nayan1 = "";
   threadid = "";
   nameBox = "";
