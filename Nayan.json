@@ -7,15 +7,15 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "一 ɀỉꫝꪖᦔ ཐི༏ཋྀ  Removed you from this group 😶",
+  "BOTNAME": "一HRIDOY",
   "PREFIX": "/",
   "OPERATOR": [
-    "",
+    "61552569068721",
     "100067540204855"
   ],
   "ADMINBOT": [
     "100067540204855",
-    ""
+    "61552569068721"
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
