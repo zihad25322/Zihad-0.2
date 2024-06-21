@@ -54,7 +54,7 @@ react.includes("vuda") ||
 react.includes("heda") || 
 react.includes("bap")) {
 		var msg = {
-				body: "গালাগালি করলে বস জিহাদ কে বলে দিবো -!!😤👊🔪"
+				body: "গালাগালি করলে বস হৃদয় কে বলে দিবো -!!😤👊🔪"
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤬", event.messageID, (err) => {}, true)
